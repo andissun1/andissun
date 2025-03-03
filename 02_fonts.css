@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+body {
+    /* font-family: Arial, Helvetica, sans-serif */
+    /* font-family: "Roboto", sans-serif;
+    font-size: medium;
+    /* line-height: 20px; */
+    /* font-weight: 400; */
+    /* text-decoration: dotted;
+    font-style: italic;
+    letter-spacing: 1px;
+    word-spacing: 10px; */
+    font: normal 16px "Roboto", sans-serif;
+    background: #eee;
+    line-height: 20px;
+}
+
+/* .Опыт h2 {
+    font-size: 30px;
+}  */
+
+/* table {
+    background-color: rgb(255, 255, 255);
+} */
+
+.card {
+    background: #ede4ff;
+    border: 2px solid white;
+    border-radius: 18px;
+    padding: 5px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* .flexx {
+    display: flex;
+} */
+
+.card h3 {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+header {
+    display: inline-block;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+img {
+    margin: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.65);
+    border-radius: 10px;
+}
+
+.block2 {
+    display: inline-block;
+    width: 59%;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+h1 {
+    margin: 10px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.Hobby p {
+    font-style: italic;
+    color: black;
+    padding: 0px 15px;
+    margin: 5px;
+}
+
+.Hobby {
+    /* box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.25); */
+    box-sizing: border-box;
+    padding: 0;
+    background: transparent;
+    border: 3px dashed white;
+}
+
+/* .Hobby .строка1 {
+    padding-left: 10px;
+    margin: 5px 10px 0 0;
+}
+
+.Hobby .строка2 {
+    padding-left: 10px;
+    margin: 5px 10px 20px 0;
+} */
+
+
+
+.contact {
+    background: #e4e8ff;
+}
+
+.contact a:active {
+    color: orange;
+}
+.contact a:hover {
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+.list li, .list ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    padding-left: 18px;
+}
+
+.list li {
+    padding: 0;
+}
+
+.list ul li:last-child {
+    padding-bottom: 10px;
+}
+
+.list li:hover {
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.Опыт {
+    background: #fee3ec;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+form div {
+    margin-bottom: 7px;
+    font-family: inherit;
+}
+
+
+.container {
+    margin: auto;
+    max-width: 800px;
+    padding-top: 30px;
+}
+
+
+.btn {
+    background-color: white;
+    border: none;
+    margin: 0;
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-family: inherit;
+
+}
+
+.btn:active {
+    opacity: 0.8;
+}
+
+.btn:hover {
+    background-color: #e4e8ff;
+}
+
+.msg {
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+
+
+table {
+    width: 100%;
+}
+
+table td, table th {
+    padding-bottom: 5px;
+}
+
+/* .Опыт td:nth-child(even) {
+    background: #eee;
+} */
+
+
+
+table td:hover {
+    background: #fffafa;
+}
+
+
+table td {
+    border-radius: 5px;
+}
+
+.form-group label {
+    display: block;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 1px;
+} 
+
+.form-group input, textarea  {
+    border-radius: 8px;
+    border: none;
+    padding: 5px 8px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #ffffff;
+    outline: none;
+    font-family: inherit;
+    color: hotpink;
+}
+
+
+.form-group  {
+    display: inline-block;
+    width: 25%;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+@media (max-width: 800px) {
+    header {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    img {
+        max-width: 200px;
+        box-sizing: border-box;
+        padding-left: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .block2 {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+
+    body, th {
+        text-align: center;
+    }
+
+    .card {
+        padding-left: 0;
+    }
+
+    li {
+        text-align: left;
+        display: inline;
+        text-decoration: underline;
+    }
+
+    .list ul {
+        padding-left: 0;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+    form {
+        margin: auto;
+    }
+
+    textarea {
+        max-width: 90%;
+    }
+}
